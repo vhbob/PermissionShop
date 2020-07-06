@@ -1,0 +1,23 @@
+main: com.vhbob.permissionshop.PShopPlugin
+name: PermissionShop
+author: vhbob
+version: 1.0
+description: Allow players to purchase permissions via a GUI shop!
+commands:
+  SpawnPermissionShop:
+    aliases: [SpawnPermShop, SpawnPShop]
+    description: Spawn the permission shopkeeper
+    permission: perm.shop.spawn
+  AddShopPerm:
+    aliases: [AddShopPermission]
+    description: Add a permission to the shop
+    permission: perm.shop.add
+  RemoveShopPerm:
+    aliases: [RemoveShopPermission]
+    description: Remove a permission from the shop
+    permission: perm.shop.remove
+  DespawnShop:
+    description: Remove the shopkeeper
+    permission: perm.shop.despawn
+api-version: 1.13
+depend: [Vault]
